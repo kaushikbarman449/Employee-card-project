@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'EB Garamond', serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: .5%;
+    font-size: 40px;
+    font-family: 'EB Garamond', serif;
+    background-color: rgba(12, 3, 96, 0.913);
+    color: white;
+}
+
+.nav_bar {
+    background-image: linear-gradient(to left, white, rgba(205, 205, 223, 0.751));
+    padding: 0.5%;
+}
+
+.nav_links {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+a {
+    /* text-decoration: none; */
+    font-size: 30px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.container {
+    display: flex;
+    flex-flow: row nowrap;
+    min-height: 68.5vh;
+    background-image: radial-gradient(white, rgb(126, 126, 185));
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container>div {
+    border: 2px solid black;
+    border-radius: 4%;
+    width: 31%;
+    height: auto;
+    text-align: center;
+    font-weight: 500;
+    font-size: 50px;
+    background-image: radial-gradient(white, rgb(177, 177, 197));
+}
+
+
+.nowrap {
+    white-space: nowrap;
+}
+
+img {
+    border: 3px double black;
+    border-radius: 50%;
+    width: 70%;
+    height: auto;
+    font-size: 20px;
+}
+
+.caption {
+    font-size: 25px;
+}
+
+figcaption {
+    display: none;
+}
+
+footer {
+    display: flex;
+    padding: 1%;
+    font-size: 20px;
+    justify-content: center;
+    background-color: rgba(12, 3, 96, 0.913);
+    color: white;
+}
+
+/* Media Queries */
+
+
+@media all and (min-width: 280px) {
+
+    header {
+        font-size: 20px;
+    }
+
+    a {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 40px;
+    }
+
+    .container {
+        flex-direction: column-reverse;
+    }
+
+    .container>div {
+        margin: 10% 3% 10% 3%;
+        padding: 1%;
+        width: 90%;
+        height: auto;
+    }
+
+    img {
+        width: 90%;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+}
+
+@media all and (min-width: 321px) {
+    p {
+        font-size: 40px;
+    }
+
+    .container {
+        flex-direction: column-reverse;
+    }
+
+    .container>div {
+        margin: 10% 3% 10% 3%;
+        padding: 1%;
+        width: 90%;
+        height: auto;
+    }
+
+    img {
+        width: 90%;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+}
+
+@media all and (min-width: 360px) {
+    p {
+        font-size: 40px;
+    }
+
+    .container {
+        flex-direction: column-reverse;
+    }
+
+    .container>div {
+        margin: 10% 3% 10% 3%;
+        padding: 1%;
+        width: 90%;
+        height: auto;
+    }
+
+    img {
+        width: 90%;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+}
+
+@media all and (min-width: 375px) {
+    p {
+        font-size: 40px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .container>div {
+        margin: 10% 3% 10% 3%;
+        padding: 1%;
+        width: 90%;
+        height: auto;
+    }
+
+    img {
+        width: 90%;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+}
+
+@media all and (min-width: 391px) {
+    p {
+        font-size: 40px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .container>div {
+        margin: 10% 3% 10% 3%;
+        padding: 1%;
+        width: 90%;
+        height: auto;
+    }
+
+    img {
+        width: 90%;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+}
+
+@media all and (min-width: 394px) {
+    p {
+        font-size: 40px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .container>div {
+        margin: 10% 3% 10% 3%;
+        padding: 1%;
+        width: 90%;
+        height: auto;
+    }
+
+    img {
+        width: 90%;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+}
+
+
+@media all and (min-width: 415px) {
+    p {
+        font-size: 40px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .container>div {
+        margin: 10% 3% 10% 3%;
+        padding: 1%;
+        width: 90%;
+        height: auto;
+    }
+
+    img {
+        width: 90%;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+}
+
+@media all and (min-width: 540px) {
+    p {
+        font-size: 40px;
+    }
+
+    .container {
+        flex-direction: column-reverse;
+    }
+
+    .container>div {
+        margin: 10% 3% 10% 3%;
+        padding: 1%;
+        width: 90%;
+        height: auto;
+    }
+
+    img {
+        width: 90%;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+}
+
+
+
+@media all and (min-width: 769px) {
+    p {
+        font-size: 35px;
+    }
+
+    .container>div {
+        margin: 10% 3%;
+        padding: 1%;
+        width: 90%;
+        height: auto;
+    }
+
+    img {
+        width: 90%;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+}
+
+@media all and (min-width: 820px) {
+
+    p {
+        font-size: 50px;
+        color: rgba(12, 3, 96, 0.913);
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .container>div {
+        margin: 10% 3%;
+        padding: .1%;
+        width: 90%;
+        height: auto;
+    }
+
+    img {
+        width: 90%;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+}
+
+@media all and (min-width: 1024px) {
+
+    p {
+        font-size: 45px;
+    }
+
+    .container {
+        flex-direction: row-reverse;
+    }
+
+    .container>div {
+        margin: 1.48% 2%;
+        padding: 3%;
+        width: 90%;
+        height: auto;
+    }
+}
